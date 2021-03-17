@@ -1,0 +1,26 @@
+
+<div style="height: 200px;" >
+<h1 style="margin: 0px">We store your signature and user information here for now.</h1>
+<h1 style="margin: 0px;">If you want to delete or update it, press the button below.</h1>
+<h1 style="margin: 0px;">Dont forget to view the other signers, who share your concern!</h1>
+</div>
+
+
+<div class="middle" style="opacity: 0.8"> 
+
+<img style="margin-left: 650px" src="{{signature}}"">
+
+<form class="deleteform" method="POST">
+     <button class="delete"><a>Delete my signature</a></button>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+</form>
+
+<h2 class="thanks" style="margin-top: 40px;" ><a href="/signers" style="color:black;">See all the other signers here</a></h2>
+
+<h2 class="thanks"><a href="/edit" style="color: black;">Edit your profile information here</a></h2>
+
+<h2 class="thanks"><a href="/logout"style="color: black;">Logout</a></h2>
+
+
+
+</div>
