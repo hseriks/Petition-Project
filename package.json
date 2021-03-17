@@ -5,7 +5,8 @@
     "main": "server.js",
     "scripts": {
         "test": "jest",
-        "start": "node server.js"
+        "start": "node server.js",
+        "deploy": "gh-pages -d dist"
     },
     "engines": {
         "node": "10.15.3"
@@ -22,6 +23,7 @@
         "jest": "^25.1.0",
         "redis": "^2.6.2",
         "spiced-pg": "^1.0.0",
-        "supertest": "^4.0.2"
+        "supertest": "^4.0.2",
+        "gh-pages": "^1.2.0"
     }
 }
